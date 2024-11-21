@@ -6,6 +6,6 @@
     <title>Livewire test</title>
 </head>
 <body>
-    <livewire:first-component />
+    <livewire:counter />
 </body>
 </html>
