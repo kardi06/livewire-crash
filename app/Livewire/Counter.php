@@ -7,10 +7,11 @@ use Livewire\Component;
 class Counter extends Component
 {
     public int $count = 10;
+    public int $number;
 
-    public function changeCount(int $number)
+    public function changeCount()
     {
-        $this->count = $number;
+        $this->count = $this->number;
     }
 
     public function render()
