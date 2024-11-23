@@ -6,6 +6,7 @@
     <title>Livewire test</title>
 </head>
 <body>
-    <livewire:bird-form />
+    <livewire:sent-event />
+    <livewire:receive-event />
 </body>
 </html>
